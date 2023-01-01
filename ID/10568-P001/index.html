@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <title>Accredidation</title>
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      
+<link rel="stylesheet" href="https://eltocode.github.io/id_page.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+/>
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script id="flag-convert" type="module" src=https://eltocode.github.io/scripts/country-iso_index.js ></script> 
+<script id="flag-assign" type="module">
+  import getCountryISO2 from "https://eltocode.github.io/scripts/country-iso_index.js";
+  let flag_iso3 = "UKR";
+  let flag_iso2 = getCountryISO2(flag_iso3).toLowerCase();
+  $("#flag").addClass("fi-".concat(flag_iso2));
+  console.log(flag_iso2);
+</script>
+
+<div id="canvas">
+  <div class="logo">
+    <img class="logo" src="/resource/logo.webp">
+  </div>
+  <div class="heading">
+    ANDRIEIEVA Liliia
+  </div>
+  <hr>
+  <div class="subheading">
+    UKR <span id="flag" class="fi"></span>
+  </div>
+  <div class="category">
+    Category : <b>Player</b>
+  </div>
+  <hr>
+  <div class="zone_header"> Access Zones </div>
+  <div class="zone_wrapper">
+    
+    <div class="access_zone zone1">
+      1
+    </div>
+    
+    
+    <div class="access_zone zone2">
+      2
+    </div>
+    
+    
+    <div class="access_zone zone3">
+      3
+    </div>
+    
+  </div>
+
+  
+
+
+
+    </div>
+  </section>
+</body>
+
+</html>
